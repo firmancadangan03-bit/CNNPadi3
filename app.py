@@ -1,3 +1,4 @@
+from __future__ import annotations
 import streamlit as st
 if 'welcome_done' not in st.session_state:
     st.session_state.welcome_done=False
@@ -18,7 +19,7 @@ Jalankan:
 streamlit run app.py
 """
 
-from __future__ import annotations
+
 
 import os
 import sys
